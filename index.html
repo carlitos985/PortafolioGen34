@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CHB</title>
+  </head>
+  <body>
+    <!--            NAVBAR                     -->
+    <header class="encabezado">
+      <nav class="nav container">
+        <div class="i-logo">
+          <img class="logo-img" src="Imagenes\Logo2.jpg" alt="Alien" />
+          <a class="logo-txt" href=""> CHB <span>DEVP.</span></a>
+        </div>
+        <!--Menú -->
+        <div class="nav-menu">
+          <button class="btn-close" type="button" aria-label="close">
+            <i class="bx bx-x"></i>
+          </button>
+          <ul class="menu-list">
+            <li class="list-item"><a class="list-link" href="">Inicio</a></li>
+            <li class="list-item"><a class="list-link" href="">Sobre Mi</a></li>
+            <li class="list-item">
+              <a class="list-link" href="">Portafolio</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="">Habilidades</a>
+            </li>
+            <li class="list-item"><a class="list-link" href="">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!--Botones Dark y Ligth-->
+        <div class="actions">
+          <button class="btn-theme" type="button" aria-label="cambiar-tema">
+            <i class="bx bx-sun"></i>
+            <i class="bx bx-moon"></i>
+          </button>
+          <button class="btn-open" type="button" aria-label="open-menu">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="hero" class="hero">
+        <div class="container">
+          <h1 class="hero-tittle">Carlos Hernando Barbosa</h1>
+          <p class="hero-description">Desarrollador FullStack</p>
+        </div>
+      </section>
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="about-info">
+            <h2 class="section-title">Sobre Mi</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Corporis, eius eveniet facilis molestias eaque voluptate cum.
+              Saepe esse ex amet et tempore accusamus, ducimus autem quas
+              nesciunt aliquam deleniti veniam?
+            </p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn-contact" type="button">
+              Contactame<i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </div>
+          <!--<div class="cont-img">-->
+          <img class="about-img" src="Imagenes/Programador3.jpg" alt="" />
+          <!--</div> -->
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <h2 class="section-title">Mis habilidades</h2>
+
+        <div class="container">
+          <div class="skills-tech">
+            <div class="skill">
+              <img src="Imagenes/bash.svg" alt="bash">
+              <h3>Bash</h3>
+            </div>
+            <div class="skill">
+              <img src="Imagenes/vsc.svg" alt="vscode">
+              <h3>VS Code</h3>
+            </div>
+          </div>
+          <ul class="skills-soft">
+
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
